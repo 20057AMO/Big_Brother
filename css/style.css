@@ -89,7 +89,12 @@ header .container{
     }
 
 }
-
+@media (max-width: 767px) {
+    header .navbar{
+        width: 100%;
+        margin: 0px 5px;
+    }
+}
 header .container .logo a{
     font-size: 25px;
     color: black;
