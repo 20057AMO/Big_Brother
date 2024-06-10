@@ -1,10 +1,8 @@
 /* Start Global Rules  */
 *{
-	padding: 0px;
-	margin: 0px;
-	box-sizing: border-box;
     --webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    box-sizing: border-box
 
 }
 :root{
@@ -95,14 +93,14 @@ header .container{
 header .container .logo a{
     font-size: 25px;
     color: black;
-    font-weight: bold;
+    font-weight: normal;
 }
 header .navbar{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-    padding: 20px 0 30px;
+    padding: 20px 10px 25px;
 }
 header .navbar li a{
     padding: 25px 15px;
