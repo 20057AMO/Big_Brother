@@ -1,5 +1,7 @@
 /* Start Global Rules  */
 *{
+    margin: 0px;
+    padding: 0px;
     --webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box
@@ -110,6 +112,7 @@ header .navbar li a{
     padding: 25px 15px;
     color: #333;
     position: relative;
+    z-index: 3;
 }
 header .navbar li a::before{
     content: "";
@@ -120,15 +123,15 @@ header .navbar li a::before{
     background-color: black;
     width: 0px;
     height: 2px;
-    transition: 0.3s;
+    transition: var(--main-transition);
 }
 header .navbar li a:hover::before{
     width:calc(100% - 20px);
     color: black;
 }
 header .navbar li a:hover{
-    font-weight: bold;
-    transition: 0.3s;
+    font-weight: normal;
+    transition: var(--main-transition);
 }
 /* End Header  */
 /* Start Landing  */
