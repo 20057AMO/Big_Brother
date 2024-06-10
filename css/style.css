@@ -73,7 +73,6 @@ ul{
 /* Start Header  */
 header{
     background-color: #ccc;
-    position: relative;
 }
 header .container{
     display: flex;
@@ -83,7 +82,7 @@ header .container{
     width: 100%;
 }
 @media (max-width: 991px) {
-    .container{
+    header .container{
         flex-direction: column;
         padding: 20px;
     }
